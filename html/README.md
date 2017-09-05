@@ -1,2 +1,1 @@
-# Homework.Tech_Skills
-Выполненные домашние задания курса Tech Skills
+Домашние работы к курсу FE Online2 Tech Skills. Раздел HTML. 
