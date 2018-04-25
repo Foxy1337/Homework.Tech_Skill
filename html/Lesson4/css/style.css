@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+a img { border: none; }
+
+.arrow{ 
+	border-top: 5px solid black; 
+	border-right:5px solid transparent; 
+	border-bottom:none; 
+	border-left:5px solid transparent; 
+	width:0px; height:0px; 
+}
+
+body{
+	background: -webkit-gradient(linear, left top, left bottom, 
+	color-stop(0%,#128aa7), color-stop(3%,#128aa7), color-stop(3%,#13cee1), 
+	color-stop(18%,#ffffff), color-stop(18%,#40c6d3), color-stop(100%,#0c739f)); /* Chrome,Safari4+ */
+	background-repeat: no-repeat;
+	height: 1021px;
+	font-family: Tahoma, Arial, sans-serif;
+}
+.central{
+	width: 1000px;
+	height: 985px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+}
+.logo{
+	float: left; /* выстраиваем элементы списка в один ряд */
+	padding-left: 28px;
+	padding-top: 11px;
+}
+.Contacts{
+	font-size: 14px;
+	color: #5fa5bb;
+	float: right; /* выстраиваем элементы списка в один ряд */
+	padding-top: 11px;
+	padding-right: 34px;
+}
+.Contacts a{
+	text-decoration: none;
+	color: #5fa5bb;
+}
+.Country{
+	font-size: 10px;
+	clear: right;
+	list-style: none; /* прячем маркеры */
+	margin-right: 30px;
+	}
+.Country li {
+	float: right; /* выстраиваем элементы списка в один ряд */	
+}
+.Country li a {
+	display: block;
+	text-align: center;
+	padding-top: 33px; /* внутренний остту чтобы текст был вне фона */
+	background-position: center top; /* выравниваем фон вверх и по центру */
+	background-repeat: no-repeat;
+	width: 57px; /* размеры указываем чтобы картинки полностью отобразились */	
+}
+.img{
+	border-top: solid 1px #0c739f;	
+	text-align: center;
+	clear: both;
+	background-size: 100%;	
+}
+.clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+        width: 100%;
+}
+ul{
+	box-shadow: -1px 6px 4px 0px rgba(0,0,0,0.75);	
+}
+.menu{
+	font-size:14px;	
+	z-index:3;
+	position: relative;
+	margin-top: -2px;
+	border-top: solid 1px #40c6d3;
+	border-bottom: solid 1px black;
+	background: -webkit-linear-gradient(top,  #373737 0%,#303030 100%); / Chrome10-25,Safari5.1-6 /	
+}
+.menu li{
+	z-index:3;
+	display: inline-block;
+	position:relative;
+	float:left;
+	list-style: none;		
+}
+.menu ul+a:after {
+	z-index:4;
+	position: absolute;	
+	content: '';
+	display: block;	
+	top: 10px;
+	right: 10px;
+	height: 5px;
+	width: 6px;
+	background: url(../img/triangle-down.png) no-repeat center right; 
+	}
+.menu li a{
+	z-index:3;
+	padding:0px 35px;
+	display:block;
+	line-height:28px;
+	color:#ffffff;
+	text-decoration:none;	
+	position:relative;	
+	font-size: 14px;	
+}
+.menu ul{
+	z-index:3;
+	position:absolute;
+	display:none;
+	top: 36px;
+	left: 23px;			
+}	
+.menu li:hover ul{
+	display:block;	
+	margin-top: 1px;
+	z-index:3;	
+	position: absolute;	
+	top: 100%;	
+	left: 23px;	
+	background: #373737;	
+}	
+.menu ul a{	
+	z-index:3;
+	padding:0px 10px;	
+}
+.fon1 {  /* фон для левой колонки (серый) */
+	z-index:1;
+	height: 535px;
+	border-right: solid 2px #c7cacf;
+	width: 100%;
+	background: #edeef0;
+	float: right;  /*делаем все обертки плавающими блоками чтобы избежать добавления блока с clear: both; */
+	position: relative; /* чтобы иметь возможность сместить фон */
+	right: 58%; /* обнажаем красный фон для центральной колонки. 60% - ширина центральной колонки */
+}
+.fon2 { /*фон для центральной колонки (белый) */
+	z-index:1;
+	border-right: solid 2px #c7cacf;	
+	width: 100%;
+	background: #ffffff;
+	float: left;
+	position: relative;
+	right: 21%;/*  обнажаем желтый фон для правой колонки. 20% - ширина правой колонки */
+}
+.fon3 { /*фон для правой колонки (серый) */
+	margin-top: 3px;
+	z-index:1;	
+	width: 100%;
+	background: #edeef0;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.leftColumn {	 
+	width: 19%;
+	float: left;
+	overflow: hidden;  /*страховка от ломки верстки объектами шире размера колонки-родителя */
+	position:relative;
+	left:80%; /* возвращаем колонки с контентом на свои позиции. 80% - сумма смещений оберток fon1 и fon2 */	
+}
+.leftColumn p{
+	color: #424c43;
+	font-size:14px;
+	text-align: center;
+	padding: 5px 0px;
+}
+.rightColumn  p{
+	color: #424c43;
+	font-size:14px;
+	text-align: center;
+	padding: 5px 0px;
+}
+.centerColumn {	
+	width: 57%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:80%;
+	visibility: hidden;
+}
+.rightColumn {
+	color: #424c43;	
+	font-size:10px;
+	width: 23%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:81%;
+}
+#h2 {
+	padding: 10px 0px 5px 0px;
+	font-weight:bold;
+	font-size:18px;	
+}
+.copyrights{
+	padding: 10px 0px;
+	text-align: center;
+	color: #dee7ee;
+	font-size: 12px;
+

@@ -1,0 +1,70 @@
+	body{
+	background: #ccc;
+	}
+
+	/* Основное поле, на заднем плане */
+	
+	.central{
+		background-color: White;	/* Поля вокруг текста */	
+		width: 513px;
+		box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.6);
+		margin: 0 auto;
+	}
+
+	/* Заголовок */
+	.name{
+		text-align: center;
+    	padding-top: 20px;
+    	}
+
+	.foto{
+	text-align: center;
+	}
+		
+	/* Абзацы */
+	
+	.status {
+		padding-left: 11px; /* Отступ текста с левой стороны */    	
+    	font-size: 15px; /* Размер шрифта */ 
+    	line-height: 20px;  /* Отступ между строками */    	
+    	padding-bottom: 15px;
+    	border-bottom: solid 1px black;
+    	margin: 0px 53px 0px 53px; /* Отступ для линии */  
+    }
+
+	.text {
+		padding-left: 64px; /* Отступ текста с левой стороны */    	
+    	font-size: 15px; /* Размер шрифта */    	
+    }
+
+    .list {
+		padding-left: 34px; /* Отступ текста с левой стороны */    	
+    	font-size: 15px; /* Размер шрифта */
+    	line-height: 20px;  /* Отступ между строками */    	
+    	padding-bottom: 15px;
+    	border-bottom: solid 1px black;
+    	margin: 0px 53px 0px 53px; /* Отступ для линии */    	
+    }
+
+    .contacts{
+		padding-left: 64px; /* Отступ текста с левой стороны */    	
+    	font-size: 15px; /* Размер шрифта */ 
+    	line-height: 10px;  /* Отступ между строками */
+    	padding-bottom: 20px;    	
+    }
+
+    .vk{
+		padding-left: 11px; /* Отступ текста с левой стороны */    	
+    	font-size: 15px; /* Размер шрифта */ 
+    	line-height: 10px;  /* Отступ между строками */
+    	padding-bottom: 25px;
+    	border-bottom: solid 1px black;
+    	margin: 0px 53px 0px 53px; /* Отступ для линии */       	
+    }
+
+	.feedback{
+		font-size: 15px; /* Размер шрифта */
+	    padding-left: 64px;
+	    padding-bottom: 60px;
+	} 
+	
