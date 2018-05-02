@@ -1,0 +1,170 @@
+body {
+  width: 1366px;
+  background-color: #f9f9f9;
+}
+header {
+  margin-bottom: 40px;
+  display: block;
+}
+.container {
+  display: block;
+  width: 968px;
+  margin: 0 auto;
+  padding: 0 46px 0 46px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+  overflow-y: hidden;
+}
+.logo {
+  margin: 50px 0 40px 0;
+  display: block;
+}
+.top-menu {
+  font-size: 0;
+  line-height: 0;
+  letter-spacing: -1;
+  display: block;
+  width: 966px;
+  height: 40px;
+  margin: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e5e5e+0,595959+26,494848+77,444343+100 */
+  background: #5e5e5e;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #5e5e5e 0%, #595959 26%, #494848 77%, #444343 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343', GradientType=0);
+  /* IE6-9 */
+}
+.top-menu li {
+  letter-spacing: normal;
+  border: 1px solid transparent;
+  margin: 0;
+  padding: 1px;
+  display: inline-block;
+  width: 120px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.top-menu a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.top-menu li:hover {
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 38px;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a4a4a+0,444444+28,343434+74,2e2e2e+100 */
+  background: #4a4a4a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4a4a4a 0%, #444444 28%, #343434 74%, #2e2e2e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4a4a4a 0%, #444444 28%, #343434 74%, #2e2e2e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #4a4a4a 0%, #444444 28%, #343434 74%, #2e2e2e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e', GradientType=0);
+  /* IE6-9 */
+  /*background-image: url(../img/top-menu-hover-bk.png);*/
+}
+.box {
+  margin-bottom: 62px;
+}
+.sidebar {
+  float: left;
+  width: 240px;
+}
+.sidebar li {
+  padding-left: 22px;
+  display: block;
+  border: 1px solid #c8c8c8;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 40px;
+}
+.sidebar li a:hover {
+  padding-left: 12px;
+  color: #2c2c2c;
+}
+.sidebar li:hover {
+  background-color: #f9f9f9;
+}
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: #656363;
+}
+.content {
+  margin-left: 240px;
+}
+.product-image {
+  border: 1px solid #c8c8c8;
+  margin: 0 0 40px auto;
+  width: 678px;
+  height: 400px;
+  display: flex;
+}
+.product-image img {
+  margin: auto;
+}
+.content p {
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Arial, sans-serif;
+  padding: 0 25px 0 25px;
+  width: 628px;
+  margin: 0 0 0 auto;
+}
+.bottom-menu {
+  display: block;
+  width: 966px;
+  height: 40px;
+  margin-bottom: 60px;
+  background-color: #e1e1e1;
+}
+.bottom-menu ul {
+  display: block;
+  float: left;
+  width: auto;
+  margin: 0;
+}
+.bottom-menu li {
+  display: inline-block;
+  width: 120px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.bottom-menu a {
+  text-decoration: none;
+  color: #2c2c2c;
+  display: block;
+}
+.bottom-menu li:hover {
+  text-decoration: underline;
+}
+.copyright {
+  float: right;
+  margin: 0 25px 0 auto;
+  color: purple;
+  text-align: right;
+  display: inline-block;
+  line-height: 40px;
+  color: #2c2c2c;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}

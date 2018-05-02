@@ -1,70 +1,41 @@
-	body{
-	background: #ccc;
-	}
-
-	/* Основное поле, на заднем плане */
-	
-	.central{
-		background-color: White;	/* Поля вокруг текста */	
-		width: 513px;
-		box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.6);
-		margin: 0 auto;
-	}
-
-	/* Заголовок */
-	.name{
-		text-align: center;
-    	padding-top: 20px;
-    	}
-
-	.foto{
-	text-align: center;
-	}
-		
-	/* Абзацы */
-	
-	.status {
-		padding-left: 11px; /* Отступ текста с левой стороны */    	
-    	font-size: 15px; /* Размер шрифта */ 
-    	line-height: 20px;  /* Отступ между строками */    	
-    	padding-bottom: 15px;
-    	border-bottom: solid 1px black;
-    	margin: 0px 53px 0px 53px; /* Отступ для линии */  
-    }
-
-	.text {
-		padding-left: 64px; /* Отступ текста с левой стороны */    	
-    	font-size: 15px; /* Размер шрифта */    	
-    }
-
-    .list {
-		padding-left: 34px; /* Отступ текста с левой стороны */    	
-    	font-size: 15px; /* Размер шрифта */
-    	line-height: 20px;  /* Отступ между строками */    	
-    	padding-bottom: 15px;
-    	border-bottom: solid 1px black;
-    	margin: 0px 53px 0px 53px; /* Отступ для линии */    	
-    }
-
-    .contacts{
-		padding-left: 64px; /* Отступ текста с левой стороны */    	
-    	font-size: 15px; /* Размер шрифта */ 
-    	line-height: 10px;  /* Отступ между строками */
-    	padding-bottom: 20px;    	
-    }
-
-    .vk{
-		padding-left: 11px; /* Отступ текста с левой стороны */    	
-    	font-size: 15px; /* Размер шрифта */ 
-    	line-height: 10px;  /* Отступ между строками */
-    	padding-bottom: 25px;
-    	border-bottom: solid 1px black;
-    	margin: 0px 53px 0px 53px; /* Отступ для линии */       	
-    }
-
-	.feedback{
-		font-size: 15px; /* Размер шрифта */
-	    padding-left: 64px;
-	    padding-bottom: 60px;
-	} 
-	
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440;
+  background-color: #eeeeee;
+  font-size: 13pt;
+}
+.box {
+  margin: 4px auto 48px;
+  width: 512px;
+  background-color: white;
+  box-shadow: 0 0 2px;
+}
+.content {
+  padding: 50px 50px 40px 62px;
+}
+.content h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 16pt;
+}
+.photo {
+  display: block;
+  padding-right: 24px;
+  margin: 0 auto;
+  height: 129px;
+}
+.content ul {
+  margin-top: 32px;
+  margin-left: -16px;
+}
+.content ul li {
+  margin-bottom: 7px;
+}
+.content hr {
+  margin: 10px 0 25px -12px;
+}
+.first_line {
+  margin: 5px 0 24px;
+  line-height: 24px;
+}
